@@ -88,7 +88,7 @@ const user: User = {
   skills: ["js", "css"],
 };
 
-function greet(user: User) {
+function greet1(user: User) {
   console.log(`Hi i am  ${user.name}`);
 }
-greet(user)
+greet1(user)
